@@ -1,0 +1,31 @@
+.view {
+  margin: 0;
+  height: 100%;
+}
+
+.height60 {
+  min-height: 60vh;
+}
+.dark {
+  background-color: white;
+  color: black;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* #new_h{
+    background-color: yellow;
+} */
+
+.child {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.child > button {
+  padding: 5px 15px;
+  margin: 15px 10px;
+}
